@@ -1,7 +1,11 @@
+// import { useContext } from "react";
 import logo from "./logo.svg";
 import "./App.css";
+import { useSelector } from "react-redux";
 
 function App() {
+  const { calculation } = useSelector((state) => state.calculation);
+
   return (
     <div className="App">
       <header className="App-header">
@@ -17,6 +21,7 @@ function App() {
         >
           Learn React
         </a>
+        {calculation}
       </header>
     </div>
   );
