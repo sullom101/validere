@@ -36,3 +36,104 @@
     transform: rotate(360deg);
   }
 }
+
+.App {
+  min-height: 100vh;
+  height: 100%;
+  background-color: #282c34;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 10rem;
+}
+
+.calculator {
+  display: flex;
+  border: 2px solid white;
+  height: 90vh;
+  width: 80vw;
+  flex-direction: column;
+}
+
+.screen {
+  height: 20%;
+  border: 2px solid green;
+}
+
+.display {
+  height: 50%;
+  display: grid;
+  justify-content: flex-end;
+  align-items: center;
+}
+.display-operation {
+  margin: 0;
+}
+.result-text {
+  margin: 0;
+}
+.result {
+  height: 50%;
+  display: grid;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.keyboard {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  height: 80%;
+}
+.keypad-row {
+  justify-content: center;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.keypad-key {
+  font-size: 1.5rem;
+}
+.history-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 80vw;
+}
+.history-item {
+  border: 1px solid gray;
+  width: 100%;
+}
+.wti-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 80vw;
+}
+.wti-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 80vw;
+}
+.container {
+  padding: 5% 0;
+  width: 80vw;
+}
+.wti-button {
+  padding: 20px;
+  background-color: #80aebb;
+  outline: none;
+  border: 0;
+  border-radius: 12px;
+}
+.price-card {
+  margin: 15px 0;
+  border: 1px solid gray;
+}
+.price-text {
+  font-size: 1.5em;
+}
