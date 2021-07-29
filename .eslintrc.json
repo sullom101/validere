@@ -23,6 +23,7 @@
     ],
     "rules": {
         "no-console": "off",
+        "no-undef": "off",
         "react/react-in-jsx-scope": "off",
         "jest/no-disabled-tests": "warn",
         "jest/no-focused-tests": "error",
